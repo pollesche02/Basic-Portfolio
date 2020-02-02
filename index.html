@@ -1,55 +1,75 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
-<head>
-
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Danielle's Bio</title>
 
     <!--This line is money! It points yoru HTML to the css file-->
     <!--Notice the "relative" pathway? it matches a file inside our current directory-->
-    <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
-    </head>
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css" />
+    <style>
+      p.ex1 {
+        max-width: 100%;
+      }
+    </style>
+  </head>
 
-    <body>
-        <header>
-            <h1> Danielle Pollesche</h1>
-        </header>
-    <div class="container"></div>
+  <body>
+    <div>
+      <header>
+        <h1>Danielle Pollesche</h1>
+      </header>
+      <div class="container"></div>
 
-        <h2> About Me </h2>
-        <hr>
+      <h2>About Me</h2>
+      <hr />
 
-        <br /> 
-            <img id="Bio-Image" src="https://placehold.it/200x200" alt="Danielle Pollesche">
+      <br />
+      <img
+        id="Bio-Image"
+        src="https://by3302files.storage.live.com/y4pDeYAd7wKacklw5Hr-h1rQKJi_kvqDzeb9M7otwqOqMh0DUlalpbZABPj3QYYEzxkFsA5q04Z_GXrbQkMbVqC98ESOhoUmgAuXCYPHQLloVXaybI3m1wqm4RIgI7WI1nCjOHys4kaN2vsp8VlgF1GNS71puTGcUYcj9xu5bVF2LbbkDZ2zamdjDXuWhI-cPq3l0wWAGJJO7sp2JFZ4SBNuUCfVRoZe3ojOTLCPukpf3A/Untitled-1.jpg?psid=1&width=200&height=200&cropMode=center"
+        alt="Danielle Pollesche"
+      />
 
-            <p> I am a single mom who loves spending time with her family</p>
+      <p> My name is Danielle Pollesche. I love to work with people an enjoy a fun energized environment.
+          I have worked in several different industries from Credit Card Services, Residential Real Estate,
+          to Managing a Retail Business.
+        <br>
+        The one common theme was people which is what I enjoy so much. With the right team and environment
+          you can accomplish anything you set your mind to! I am trying to expand my technical expertise in 
+          coding so I can bring a different perspective to what I do and apply different solutions.
+          <br>
+         At the end of the day it's all about having a great environment with good people!
+      </p>
+      <br />
+
+      <!--Contact information-->
+      <head>
+        <h2>Contact</h2>
+        <hr />
+      </head>
+
+      <form>
+          <p class="Name"> First Name: </p>
+        <input type="text" name="firstname" />
+        <p class="Name"> Last Name: </p>
+        <input type="text" name="lastname" />
         <br />
+        <p class="Message"> Message: </p>
+        <textarea name="message" rows="10" cols="30"> </textarea>
+      </form>
+      <button type="button">Submit</button>
+    </div>
+    <br>
+    <head>
+        <h2> Portfolio </h2>
+        <hr />
+      </head> 
+      
+    
 
-        <!--Contact information-->
-        <head>
-            <h2> Contact </h2>
-            <hr>
-        </head>
-        <div class="container"></div>
 
-            <div>
-                Name
-            </div>
 
-            <br />
-            <div>
-                Email
-            </div>
-
-            <br />
-            <div>
-                Message
-            </div>
-
-            <br />
-            <div> 
-                <button type="button">Submit</button>
-            </div>
-    </body>
-
+      <p class="footer">Yesterday Was Todays Future </p>
+  </body>
+</html>
