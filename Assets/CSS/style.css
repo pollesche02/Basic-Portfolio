@@ -24,6 +24,7 @@
 .footer {
    left: 0;
    bottom: 0;
+   top: 8px solid #4aaaa5;
    width: 100%;
    background-color: #4aaaa5;
    color: white;
@@ -35,6 +36,14 @@
   
 }
 
+#header {
+   background-color:#4aaaa5;
+   color:white;
+}
+#links {
+   float:right;
+}
+
 .Message { 
    color: #4aaaa5
   
@@ -42,6 +51,7 @@
 
 header {
     background: #4aaaa5;
+    text-align: right;
 }
 
 h1 {
